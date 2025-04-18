@@ -1,0 +1,440 @@
+.post-container {
+  background-color: #E5E3D4; /* Matches the body background */
+  border: 2px solid #9ABF80; /* Border color matching the container background */
+  border-radius: 25px; /* More rounded corners for a larger feel */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow for better depth */
+  margin-bottom: 30px; /* Increased margin for spacing */
+  padding: 30px; /* Larger padding for more space inside the post */
+  width: 600px; /* Increased max-width for larger posts */
+  color: #6A669D; /* Match text color */
+  font-family: "Gloria Hallelujah", cursive; /* Match font style */
+}
+
+/* Header styling */
+.post-header h2 {
+  margin: 0;
+  color: #1C325B; /* Deep color for contrast */
+  font-size: 2.5rem; /* Larger font size for headings */
+  text-align: left; /* Left align the header */
+}
+
+/* Description text */
+.post-description {
+  font-size: 1.2rem; /* Increased font size for readability */
+  color: #6A669D; /* Softer text color */
+  margin: 20px 0; /* More margin for better spacing */
+  text-align: left; /* Left align the description */
+}
+
+/* Content container */
+.post-content-container {
+  margin: 20px 0; /* Increased margin for more space between elements */
+  padding: 20px; /* Larger padding */
+  background-color: #bfe4a5; /* Subtle contrasting background */
+  border: 2px solid #9ABF80; /* Match border color scheme */
+  border-radius: 20px; /* Rounded corners for consistency */
+  color: #1C325B; /* Match text color */
+}
+
+/* Timestamp container (if applicable) */
+.post-timestamp {
+  font-size: 1rem; /* Adjust font size */
+  color: #6A669D; /* Softer text color */
+  margin-top: 10px; /* Add some margin from other elements */
+}
+
+/* Actions container */
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px; /* Increased margin for more spacing */
+}
+
+/* Action buttons */
+.post-actions button {
+  background-color: #9ABF80; /* Button background matching theme */
+  color: #1C325B; /* Button text color */
+  border: none;
+  padding: 15px 20px; /* Larger button size */
+  border-radius: 20px; /* More rounded buttons */
+  cursor: pointer;
+  font-size: 1.2rem; /* Larger font size for better visibility */
+  font-family: "Gloria Hallelujah", cursive; /* Match font */
+}
+
+.post-actions button:hover {
+  background-color: #bfe4a5; /* Slightly lighter shade on hover */
+  color: #6A669D; /* Adjust hover text color */
+}
+
+.post-form {
+  width: 100%;
+  max-width: 700px; /* Form's maximum width */
+  margin: 20px auto;
+  padding: 30px; /* Padding inside the form */
+  background-color: #E5E3D4; /* Matches the body background */
+  border: 2px solid #9ABF80; /* Border color matching theme */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  font-family: "Gloria Hallelujah", cursive; /* Match font */
+  color: #6A669D; /* Text color matching theme */
+  font-size: 1.2rem; /* Slightly larger text size */
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.post-form textarea {
+  width: calc(100% - 20px); /* Adjusted width to fit within form padding */
+  max-width: 100%; /* Ensure it doesn’t exceed form width */
+  resize: none; /* Prevent resizing */
+  padding: 10px; /* Padding inside the textarea */
+  margin-bottom: 20px; /* Spacing between fields */
+  font-size: 1.2rem; /* Font size for readability */
+  background-color: #bfe4a5; /* Subtle contrasting background */
+  border: 2px solid #9ABF80; /* Match border color */
+  border-radius: 15px; /* Rounded corners */
+  color: #1C325B; /* Match text color */
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1); /* Inset shadow for depth */
+}
+
+.post-form textarea:focus {
+  background-color: #eef7fa; /* Light color for focus */
+  border-color: #8cd1e4; /* Highlighted border on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 6px rgba(0, 172, 193, 0.5); /* Glow effect */
+}
+
+.post-form input[type="file"] {
+  width: calc(100% - 20px); /* Adjusted width to fit within form padding */
+  max-width: 100%; /* Ensure it doesn’t exceed form width */
+  margin-bottom: 20px;
+  font-size: 1rem; /* Adjusted font size */
+  padding: 10px; /* Added padding */
+  color: #6A669D; /* Match text color */
+  background-color: #bfe4a5; /* Subtle background color */
+  border: 2px solid #9ABF80; /* Match border */
+  border-radius: 15px; /* Rounded corners */
+}
+
+#submit-post {
+  width: 100%; /* Button takes full width of the form */
+  padding: 15px; /* Padding for button */
+  font-size: 1.3rem; /* Slightly larger font size */
+  font-weight: bold;
+  color: #1C325B; /* Match text color */
+  background-color: #9ABF80; /* Match theme */
+  border: none;
+  border-radius: 20px; /* Rounded corners for button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#submit-post:hover {
+  background-color: #bfe4a5; /* Slightly lighter green on hover */
+}
+
+#submit-post:active {
+  background-color: #8cd1e4; /* Lighter shade on active */
+}
+
+#submit-post:disabled {
+  background-color: #ccc; /* Gray for disabled state */
+  cursor: not-allowed; /* Not-allowed cursor for disabled button */
+}
+
+#post-media {
+  display: block; /* Ensure it takes up its own line */
+  height:30px;
+  width: calc(100% - 20px); /* Adjust to fit within the form's padding */
+  max-width: 100%; /* Ensure it doesn’t exceed form width */
+  margin: 20px auto; /* Center it with some space around */
+  padding: 10px 15px; /* Padding inside the input */
+  font-size: 1.2rem; /* Match font size with other elements */
+  color: #1C325B; /* Match text color */
+  background-color: #bfe4a5; /* Subtle green background */
+  border: 2px solid #9ABF80; /* Border matching the theme */
+  border-radius: 15px; /* Rounded corners for consistency */
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+  cursor: pointer; /* Indicate it's clickable */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+#post-media:hover {
+  background-color: #eef7fa; /* Slightly lighter background on hover */
+  border-color: #8cd1e4; /* Highlight border */
+}
+
+#post-media:focus {
+  outline: none; /* Remove default outline */
+  border-color: #8cd1e4; /* Highlight border on focus */
+  box-shadow: 0 0 6px rgba(0, 172, 193, 0.5); /* Add focus glow */
+}
+
+#post-media:active {
+  background-color: #8cd1e4; /* Slightly darker shade when clicked */
+}
+
+/* Styling for the search results container */
+.post-results {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 1rem; /* Add spacing between posts */
+}
+
+.post-results .post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Styling for the user results container */
+.user-results {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adds space between user entries */
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #E5E3D4; /* Match the site’s background */
+  border-radius: 20px; /* Rounded corners for the results container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Styling for each user entry */
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #9ABF80; /* Match the site’s green */
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for user container */
+.user-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02); /* Slight enlargement on hover */
+}
+
+/* Styling for the username text */
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1C325B; /* Dark blue for text */
+  flex-grow: 1;
+}
+
+/* Grouping the buttons together */
+.button-group {
+  display: flex;
+  gap: 15px; /* Space between the two buttons */
+}
+
+/* General button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: "Gloria Hallelujah", cursive;
+  color: #1C325B; /* Match the dark blue color */
+  border: none;
+  border-radius: 10px; /* Rounded buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: bold;
+}
+
+/* Specific styles for the friend request button */
+.sendFriendRequestButton {
+  background-color: #bfe4a5; /* Soft green */
+}
+
+/* Specific styles for the view button */
+.viewFriendButton {
+  background-color: #bce69e; /* Soft green */
+}
+
+/* Hover effects for buttons */
+button:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #7da75f; /* Slightly darker green */
+  color: #1C325B; /* Keep text color consistent */
+}
+
+/* Active effect for buttons */
+button:active {
+  transform: scale(1);
+  filter: brightness(0.9);
+}
+
+
+/* General container for the comment section */
+.comments-section {
+  background-color: #E5E3D4; /* Match page-profile background */
+  border-radius: 25px; /* Consistent with other elements */
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Depth consistency */
+  margin-top: 30px; /* Add spacing from other content */
+}
+
+/* Header for comments */
+.comments-header h3 {
+  font-size: 2rem; /* Larger font for emphasis */
+  font-weight: bold;
+  color: #1C325B; /* Dark color for contrast */
+  text-align: center;
+  margin-bottom: 20px; /* Spacing from the list */
+  font-family: "Gloria Hallelujah", cursive; /* Match font */
+}
+
+/* Comment list styles */
+.comments-list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+/* Individual comment item */
+.comment-item {
+  background-color: #f3f3f3; /* Light gray for individual comments */
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px; /* Space between author and text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.comment-author {
+  font-weight: bold;
+  color: #6A669D; /* Match primary text color */
+  font-family: "Gloria Hallelujah", cursive; /* Match font */
+}
+
+.comment-text {
+  color: #1C325B; /* Dark color for text */
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+/* Placeholder when no comments exist */
+.no-comments {
+  font-style: italic;
+  color: #6A669D; /* Softer tone */
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+/* Add comment section */
+.add-comment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  background-color: #9ABF80; /* Match post content background */
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.comment-input {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3; /* Match input style */
+  color: #1C325B; /* Dark text color */
+  font-family: "Gloria Hallelujah", cursive; /* Match font */
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+  resize: none;
+}
+
+.submit-comment {
+  padding: 10px 20px;
+  background-color: #bfe4a5; /* Match button background */
+  color: #1C325B; /* Match text color */
+  border: none;
+  border-radius: 15px; /* Rounded buttons */
+  font-size: 1.2rem; /* Adjusted font size */
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-comment:hover {
+  background-color: #7da75f; /* Slightly darker green */
+  color: white; /* White text for contrast */
+  transform: scale(1.05); /* Slight enlargement */
+}
+
+
+/* General container for the book news section */
+.book-news-section {
+  background-color: #E5E3D4; /* Match the body background */
+  border-radius: 25px; /* Rounded edges for a friendly feel */
+  padding: 30px; /* Padding around the content */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  margin: 20px auto; /* Center the section with spacing */
+  width: 80%; /* Adjust width based on screen size */
+  max-width: 800px; /* Limit the maximum width */
+  text-align: center; /* Center align the section title */
+  font-family: "Gloria Hallelujah", cursive; /* Match font style */
+}
+
+/* Header for the section */
+.book-news-section h2 {
+  font-size: 2.5rem; /* Emphasize the title */
+  color: #1C325B; /* Deep blue for contrast */
+  margin-bottom: 20px; /* Spacing below the header */
+}
+
+/* Container for individual news items */
+.book-news-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 20px; /* Space between news items */
+}
+
+/* Individual book news item styling */
+.book-news-item {
+  background-color: #bfe4a5; /* Subtle green background for news items */
+  border-radius: 20px; /* Rounded edges for consistency */
+  padding: 20px; /* Space inside each item */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  text-align: left; /* Align text to the left */
+  font-family: "Gloria Hallelujah", cursive; /* Match font */
+}
+
+/* Title of each book */
+.book-news-item h3 {
+  font-size: 2rem; /* Larger font size for book titles */
+  color: #1C325B; /* Dark blue text */
+  margin-bottom: 10px; /* Spacing below the title */
+}
+
+/* Details of the book (price and availability) */
+.book-news-item p {
+  font-size: 1.2rem; /* Readable font size */
+  color: #6A669D; /* Softer color for details */
+  margin: 5px 0; /* Space between lines */
+}
+
+/* Emphasized text */
+.book-news-item p strong {
+  color: #1C325B; /* Match the title color */
+}
+
+/* Add hover effect to book items for interactivity */
+.book-news-item:hover {
+  background-color: #7da75f; /* Slightly darker green */
+  transform: scale(1.02); /* Slight enlargement */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  transition: all 0.3s ease; /* Smooth transitions */
+}
