@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="gallery.css">
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+    <title>PetTalk</title>
+</head>
+<body>
+    <div id="app">
+        <div class="container">
+
+            <div id="header" class="header">
+                <!-- Title -->
+                <div class="header-left">
+                    <h1 id="Title"><i class="fas fa-paw"></i> PetTalk</h1>
+                </div>
+                <!-- Search Bar -->
+                <div class="header-middle">
+                    <div class="search-container">
+                        <input id="search" type="text" placeholder="Search..." class="search-bar">
+                        <button id="search-button" type="button" class="search-button"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <!-- buttons -->
+                <div class="header-right">
+                    <button id="post-button" type="button" class="post-button">Post</button>
+                </div>
+            </div>
+            
+
+            <div id="navBar" class="navBar">
+                <ul>
+                    <li><a href="#/Home"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#/Explore"><i class="fas fa-compass"></i>Explore</a></li>
+                    <li><a href="#/ForYou"><i class="fas fa-star"></i>For You</a></li>
+                    <li><a href="#/Book"><i class="fas fa-building"></i>Book</a></li>
+                    <li id="account_user"><a href="#/User"><i class="fas fa-user-circle"></i>User</a></li>
+                </ul>
+            </div>
+
+            <div id="content" class="content"></div>
+
+            <div id="sideBar" class="sideBar"></div>
+        </div>
+    </div>
+
+    <script type="module" src="/M00971314/scripts/main.js"></script>  
+</body>
+</html>

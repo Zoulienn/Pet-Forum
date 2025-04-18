@@ -1,0 +1,105 @@
+/* Styling for the account container */
+.Account {
+    width: 520px;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 30px; 
+    box-shadow: 5px 20px 50px #74a154;
+    background-color: #9ABF80; 
+    margin: 30px;
+}
+
+/* Hides the checkbox element */
+#check {
+    display: none;
+}
+
+/* Styling for the register container */
+.register {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling for all labels */
+label {
+    font-family: "Gloria Hallelujah", cursive;
+    color: #1C325B; 
+    font-size: 3em; 
+    display: flex;
+    justify-content: center;
+    margin: 60px; 
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+/* Styling for input fields */
+input {
+    font-family: "Gloria Hallelujah", cursive;
+    width: 70%; 
+    height: 15px; 
+    background: #cae2b9;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+/* Styling for buttons */
+.accountButton {
+    font-family: "Gloria Hallelujah", cursive;
+    width: 70%;
+    height: 50px;
+    margin: 15px auto;
+    display: block;
+    justify-content: center;
+    color: #E5E3D4;
+    background: #573b8a;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.accountButton:hover {
+    background: #6d44b8;
+}
+
+/* Styling for the login container */
+.login {
+    height: 600px;
+    background: #E5E3D4;
+    border-radius: 60% / 10%;
+    transform: translateY(-200px);
+    transition: 0.8s ease-in-out;
+}
+
+/* Styling for login labels */
+.login label {
+    color: #573b8a;
+    transform: scale(0.7);
+}
+
+/* Transformation when checkbox is checked */
+#check:checked ~ .login {
+    transform: translateY(-640px);
+}
+
+/* Scaling for login labels when checkbox is checked */
+#check:checked ~ .login label {
+    transform: scale(1.2);
+}
+
+/* Scaling for register labels when checkbox is checked */
+#check:checked ~ .register label {
+    transform: scale(0.7);
+}

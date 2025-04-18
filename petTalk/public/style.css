@@ -1,0 +1,197 @@
+body {
+    background-color: #E5E3D4;
+    font-family: "Gloria Hallelujah", cursive;
+    color:#5954a3;
+}
+
+/* Container for the grid layout */
+.container {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 0.8fr; /* 3 equal-width columns */
+    grid-template-rows: 0.1fr 1fr; /* Further reduced the height of the header */
+    height: 100vh; /* Make the grid take up the full screen height */
+    gap: 25px; /* Increased space between the sections */
+    border-radius: 30px; /* More rounded corners for the entire grid container */
+    padding: 10px;
+}
+
+/* Header Styling */
+.header {
+    grid-column: span 3;
+    background-color: #9ABF80;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Divide header into 3 sections */
+    align-items: center; /* Align items vertically in the middle */
+    border-radius: 30px;
+    padding: 10px 20px; /* Add padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Left Section: Title */
+.header-left {
+    display: flex;
+    align-items: center; /* Vertically align the title */
+    justify-content: flex-start; /* Align title to the left */
+}
+
+#Title {
+    font-size: 65px;
+    margin: 0;
+    color: #1C325B;
+}
+
+/* Middle Section: Search Bar */
+.header-middle {
+    display: flex;
+    justify-content: center; /* Center the search bar horizontally */
+    align-items: center; /* Align search bar vertically */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between search bar and button */
+}
+
+.search-bar {
+    padding: 10px;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+.search-button {
+    color: #6A669D;
+    background-color: #bfe4a5;
+    width: 10%; 
+    height: 50px; 
+    display: block;
+    justify-content: center;
+    font-size: 1.2em; 
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #7da75f;
+    color: #1C325B;
+}
+
+#search-button i {
+    font-size: 22px;
+}
+
+/* Right Section: Placeholder */
+.header-right {
+    display: flex;
+    justify-content: flex-end; /* Align future elements to the right */
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+/* Style for the navBar */
+.navBar {
+    background-color: #9ABF80;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px; /* More rounded corners for all sides of the navBar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Style for the nav links */
+.navBar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the entire list */
+    gap: 20px; /* Increased space between list items */
+}
+
+.navBar ul li {
+    width: 100%;
+    text-align: center;
+}
+
+.navBar ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #1C325B; /* Set color to black (or whatever you prefer) */
+    font-size: 1.6rem; /* Make text bigger */
+    display: flex;
+    flex-direction: column; /* Align icon and text vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+}
+
+.navBar ul li a i {
+    font-size: 2.5rem; /* Make the icon bigger */
+}
+
+.navBar ul li a:hover {
+    color: darkblue; /* Change color on hover if needed */
+}
+
+/* Content area */
+.content {
+    background-color: #9ABF80; /* Light green */
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Align content at the top */
+    align-items: flex-start; /* Align items to the start vertically */
+    border-radius: 30px; /* More rounded corners for all sides of the content */
+    overflow-y: auto; /* Enables vertical scrolling when content overflows */
+    max-height: 700px; /* Adjust this height as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+/* Hide the scrollbar */
+.content::-webkit-scrollbar {
+    width: 0; /* No visible scrollbar */
+    height: 0; /* No visible scrollbar */
+}
+
+/* Sidebar */
+.sideBar {
+    background-color: #9ABF80; /* Light yellow */
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px; /* More rounded corners for all sides of the sidebar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.post-button{
+    font-family: "Gloria Hallelujah", cursive;
+    width: 60%; /* Increased width */
+    height: 50px; /* Increased height */
+    margin: 15px auto; 
+    display: block;
+    justify-content: center;
+    color: #1C325B;
+    background: #bfe4a5; /* Purple color to match theme */
+    font-size: 1.2em; /* Increased font size */
+    font-weight: bold;
+    margin-top: 30px; /* Adjusted margin */
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-button:hover {
+    background-color: #7da75f;
+    color: #1C325B;
+}
+
