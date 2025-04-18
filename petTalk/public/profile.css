@@ -1,0 +1,299 @@
+.page-profile {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px; /* Larger padding to match post-container */
+    background-color: #E5E3D4; /* Same as post-container */
+    color: #6A669D; /* Match text color */
+    font-family: "Gloria Hallelujah", cursive; /* Match font */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Same shadow depth as post-container */
+    box-sizing: border-box;
+}
+
+.profile-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin for better spacing */
+    background-color: #9ABF80; /* Match post-header background */
+    border-radius: 25px; /* Consistent roundness */
+    padding: 20px; /* Increased padding for consistency */
+    color: #1C325B; /* Match post-header text color */
+    font-size: 2.5rem; /* Align with post-header font size */
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Same shadow for depth */
+}
+
+.logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 12px 18px; /* Slightly larger for visibility */
+    background: #bfe4a5; /* Match button style */
+    color: #6A669D; /* Match text color */
+    border: none;
+    border-radius: 20px; /* Consistent button roundness */
+    cursor: pointer;
+    font-size: 1rem; /* Adjusted font size for consistency */
+    font-family: "Gloria Hallelujah", cursive; /* Match font */
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #9ABF80; /* Match button hover effect */
+    color: #1C325B;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around; /* Spread out stats evenly */
+    margin-top: 20px;
+    color: #1C325B;
+    font-size: 1.2rem; /* Adjusted size for consistency */
+    font-weight: bold;
+}
+
+.profile-content {
+    background-color: #bfe4a5; /* Match post-content-container */
+    border-radius: 20px;
+    padding: 25px; /* Align padding */
+    color: #1C325B; /* Match text color */
+    font-size: 1.2rem; /* Match font size */
+    line-height: 1.6; /* Improve readability */
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Depth consistency */
+}
+
+.content-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Increased spacing for clarity */
+    margin-bottom: 25px;
+}
+
+.toggle-btn {
+    padding: 15px 25px; /* Larger size for prominence */
+    background-color: #bfe4a5;
+    color: #6A669D;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.2rem; /* Match button font size */
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #9ABF80;
+    color: #1C325B;
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.content-display {
+    border-top: 2px solid #9ABF80; /* Match post-container borders */
+    padding: 20px;
+    min-height: 180px; /* Increased for symmetry */
+    background-color: #E5E3D4;
+    border-radius: 20px;
+    color: #1C325B;
+    font-size: 1.2rem; /* Match post font size */
+    line-height: 1.6; /* Improve readability */
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+}
+
+/* Styling for the container of the pending requests */
+.sideBar .request-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background-color: #9ABF80; /* Match site's green */
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for the request items */
+.sideBar .request-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02); /* Slight enlargement on hover */
+}
+
+/* Styling for the username */
+.request-username {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Grouping the buttons together */
+.button-group {
+    display: flex;
+    gap: 10px; /* Add space between the buttons */
+}
+
+/* General button styling */
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-family: "Gloria Hallelujah", cursive;
+    border: none;
+    border-radius: 10px; /* Rounded buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+/* Specific styles for Accept button */
+.acceptFriendRequestButton {
+    background-color: #bfe4a5; /* Soft green */
+}
+
+/* Specific styles for Decline button */
+.declineFriendRequestButton {
+    background-color: #E5E3D4; /* Light neutral color */
+}
+
+/* Hover effects for both buttons */
+button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: #7da75f; /* Slightly darker green */
+}
+
+/* Active effect for buttons */
+button:active {
+    transform: scale(1);
+    filter: brightness(0.9);
+}
+
+/* Styling for the friends list container */
+.friend-list-container {
+    background-color: #9ABF80; /* Light green */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the container */
+    max-width: 800px; /* Limiting the width */
+    margin: 20px auto; /* Centered on the page with margin */
+}
+
+/* Styling for the unordered list */
+.friend-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each friend item */
+.friend-item {
+    background-color: #f3f3f3; /* Light gray background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; /* Space between the username and button */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for the friend's username */
+.friend-username {
+    font-size: 1.2rem;
+    color: #1C325B; /* Dark color for the username */
+}
+
+/* Styling for the View button */
+.UnfriendButton {
+    background-color: #bfe4a5; /* Match the theme */
+    color: #1C325B; /* Dark color for text */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.UnfriendButton:hover {
+    background-color: #7da75f;
+    color: white;
+}
+
+
+
+/* Styling for the add animal form */
+.add-animal-form {
+    background-color: #9ABF80; /* Light green to match the theme */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    max-width: 600px;
+    margin: 20px auto; /* Center the form */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input field for animal name */
+.animal-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #1C325B; /* Dark color for text */
+}
+
+/* Add animal button */
+.animal-button {
+    background-color: #bfe4a5; /* Match theme */
+    color: #1C325B;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.animal-button:hover {
+    background-color: #7da75f;
+    color: white;
+}
+
+/* Styling for the animal list container */
+.animal-list-container {
+    background-color: #9ABF80; /* Light green */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for container */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Styling for the animal list itself */
+.animal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each animal item */
+.animal-item {
+    background-color: #f3f3f3; /* Light gray background */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; /* Space between the name and buttons */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Styling for the animal name */
+.animal-name {
+    font-size: 1.2rem;
+    color: #1C325B; /* Dark color for text */
+}
+
+
