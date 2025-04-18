@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "674adef6d457330546b71cde"
+  },
+  "username": "Julien",
+  "email": "julien@gmail.com",
+  "password": "Tester12!",
+  "telNumber": "54856972",
+  "friends": [
+    "Test"
+  ],
+  "postsCount": 2,
+  "animals": [
+    "Dog",
+    "Cat",
+    "Bird"
+  ]
+},
+{
+  "_id": {
+    "$oid": "674ae08c53b11435b3b70ae5"
+  },
+  "username": "peter",
+  "email": "smartPeter@gmail.com",
+  "password": "Tester12!",
+  "telNumber": "56456453",
+  "friends": [
+    "Test"
+  ]
+},
+{
+  "_id": {
+    "$oid": "674af5fe93179dae7359e150"
+  },
+  "username": "Jerome",
+  "email": "Jerome@gmail.com",
+  "password": "Tester12!",
+  "telNumber": "56787611"
+},
+{
+  "_id": {
+    "$oid": "674c45812bd0e55a4083832f"
+  },
+  "username": "Test",
+  "email": "Test@gmail.com",
+  "password": "Tester12!",
+  "telNumber": "52424322",
+  "friends": [
+    "Julien",
+    "peter"
+  ],
+  "animals": [
+    "Cat",
+    "Dog"
+  ],
+  "bio": "Boom Boom Chakalakaa",
+  "postsCount": 8
+},
+{
+  "_id": {
+    "$oid": "675bbc01c162431bcf55fa44"
+  },
+  "username": "Paul",
+  "email": "Paul@gmail.com",
+  "password": "Tester12!",
+  "telNumber": "56787611",
+  "friends": []
+}]

@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "674d5d86fae6be9867e83045"
+  },
+  "username": "Test",
+  "description": "im going crazy",
+  "content": "idk si sa marche ou pas",
+  "timestamp": "2024-12-02T07:11:02.002Z"
+},
+{
+  "_id": {
+    "$oid": "674d6075616aebc5a915af97"
+  },
+  "username": "Julien",
+  "description": "testing another user",
+  "content": "I think therefore I am",
+  "timestamp": "2024-12-02T07:23:33.533Z"
+},
+{
+  "_id": {
+    "$oid": "674ead975d270fcbb533f032"
+  },
+  "username": "Test",
+  "description": "image test",
+  "content": "",
+  "media": "/uploads/1733209495799.png",
+  "timestamp": {
+    "$date": "2024-12-03T07:04:55.806Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674ff31359969fd3126805a7"
+  },
+  "username": "Test",
+  "description": "video test",
+  "content": "",
+  "media": "/uploads/1733292819744.mp4",
+  "timestamp": {
+    "$date": "2024-12-04T06:13:39.764Z"
+  },
+  "likes": 2
+},
+{
+  "_id": {
+    "$oid": "675150653cb92e7e0f0b89a6"
+  },
+  "username": "Test",
+  "description": "julien julien",
+  "content": "where are you??",
+  "media": null,
+  "timestamp": {
+    "$date": "2024-12-05T07:04:05.453Z"
+  },
+  "likes": 1
+},
+{
+  "_id": {
+    "$oid": "675a96d7377e3034177e7a27"
+  },
+  "username": "Julien",
+  "description": "this is another test for julien",
+  "content": "blablablabla",
+  "media": null,
+  "timestamp": {
+    "$date": "2024-12-12T07:55:03.843Z"
+  },
+  "comments": [
+    {
+      "username": "Test",
+      "text": "this is a comment",
+      "timestamp": {
+        "$date": "2024-12-12T10:53:34.927Z"
+      }
+    },
+    {
+      "username": "Test",
+      "text": "Postman comment",
+      "timestamp": {
+        "$date": "2024-12-13T06:59:29.207Z"
+      }
+    }
+  ],
+  "likes": 3
+},
+{
+  "_id": {
+    "$oid": "675ab86b0a9f7240652d3dc8"
+  },
+  "username": "Test",
+  "description": "new post",
+  "content": "this is empty hehe",
+  "media": null,
+  "timestamp": {
+    "$date": "2024-12-12T10:18:19.973Z"
+  },
+  "likes": 12,
+  "comments": [
+    {
+      "username": "Test",
+      "text": "post comment",
+      "timestamp": {
+        "$date": "2024-12-12T10:52:55.948Z"
+      }
+    },
+    {
+      "username": "Test",
+      "text": "crazyyy",
+      "timestamp": {
+        "$date": "2024-12-12T10:58:52.124Z"
+      }
+    }
+  ]
+}]

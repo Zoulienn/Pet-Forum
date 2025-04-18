@@ -1,0 +1,670 @@
+[{
+  "_id": {
+    "$oid": "67569f1b03d2b23740f96eea"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/6euYVVE_u.jpg",
+  "breedName": "Finnish Spitz",
+  "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f1b03d2b23740f96eeb"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/_eGtrKB20.jpg",
+  "breedName": "Bearded Collie",
+  "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f1b03d2b23740f96eec"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/WIf5o1E8h.jpg",
+  "breedName": "Afghan Hound",
+  "temperament": "Aloof, Clownish, Dignified, Independent, Happy",
+  "lifespan": "10 - 13 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f1b03d2b23740f96eed"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/Q6H9UcRZB.jpg",
+  "breedName": "Saint Bernard",
+  "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+  "lifespan": "7 - 10 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f1b03d2b23740f96eee"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/-C5P1HCK4.jpg",
+  "breedName": "Bull Terrier",
+  "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96eef"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/_kiOLmJeJ.jpg",
+  "breedName": "Chesapeake Bay Retriever",
+  "temperament": "Affectionate, Intelligent, Quiet, Dominant, Happy, Protective",
+  "lifespan": "10 - 13 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96ef0"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/nwpd32sdl.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96ef1"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/Lx1N_UKFS.jpg",
+  "breedName": "Australian Cattle Dog",
+  "temperament": "Cautious, Energetic, Loyal, Obedient, Protective, Brave",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96ef2"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/BQX_0_22x.jpg",
+  "breedName": "Cocker Spaniel",
+  "temperament": "Trainable, Friendly, Affectionate, Playful, Quiet, Faithful",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96ef3"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/uFQ94lGDH.jpg",
+  "breedName": "Border Collie",
+  "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96ef4"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/zHwi3vVju.jpg",
+  "breedName": "Bull Terrier",
+  "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f2903d2b23740f96ef5"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/O4yjcTJOh.jpg",
+  "breedName": "Siamese",
+  "temperament": "Active, Agile, Clever, Sociable, Loving, Energetic",
+  "lifespan": "12 - 15",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96ef6"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/SJ6f2g9EQ_1280.jpg",
+  "breedName": "Wire Fox Terrier",
+  "temperament": "Fearless, Friendly, Bold, Keen, Alert, Quick",
+  "lifespan": "13 – 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96ef7"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/OSujkkRUn.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96ef8"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/34v9aKCct.jpg",
+  "breedName": "American Bully",
+  "temperament": "Strong Willed, Stubborn, Friendly, Clownish, Affectionate, Loyal, Obedient, Intelligent, Courageous",
+  "lifespan": "8 – 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96ef9"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/BFRYBufpm.jpg",
+  "breedName": "Akita",
+  "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous",
+  "lifespan": "10 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96efa"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/OaTQfIktG.jpg",
+  "breedName": "Balinese",
+  "temperament": "Affectionate, Intelligent, Playful",
+  "lifespan": "10 - 15",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96efb"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/t4pZFktBB.jpg",
+  "breedName": "American Bulldog",
+  "temperament": "Friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96efc"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/SuF176CZ8.jpg",
+  "breedName": "Finnish Spitz",
+  "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f3603d2b23740f96efd"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/J4H-oD_7x.jpg",
+  "breedName": "Kooikerhondje",
+  "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96efe"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/satHCV8Ft.jpg",
+  "breedName": "Kooikerhondje",
+  "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96eff"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/3PjHlQbkV.jpg",
+  "breedName": "Finnish Spitz",
+  "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f00"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/hi_qSe2ml.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f01"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/GR68e1Aob.jpg",
+  "breedName": "Saluki",
+  "temperament": "Aloof, Reserved, Intelligent, Quiet",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f02"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/quiHq2FiB.jpg",
+  "breedName": "American Foxhound",
+  "temperament": "Kind, Sweet-Tempered, Loyal, Independent, Intelligent, Loving",
+  "lifespan": "8 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f03"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/uywhSIAHr.jpg",
+  "breedName": "Himalayan",
+  "temperament": "Dependent, Gentle, Intelligent, Quiet, Social",
+  "lifespan": "9 - 15",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f04"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/aREFAmi5H.jpg",
+  "breedName": "Alaskan Malamute",
+  "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f05"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/A3mLu3WQ2.jpg",
+  "breedName": "Alaskan Malamute",
+  "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f06"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/ShbKwvcD_.jpg",
+  "breedName": "Scottish Fold",
+  "temperament": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving",
+  "lifespan": "11 - 14",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f07"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/Sy57xx9EX_1280.jpg",
+  "breedName": "Basset Hound",
+  "temperament": "Tenacious, Friendly, Affectionate, Devoted, Sweet-Tempered, Gentle",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f4303d2b23740f96f08"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/rkiByec47_1280.jpg",
+  "breedName": "African Hunting Dog",
+  "temperament": "Wild, Hardworking, Dutiful",
+  "lifespan": "11 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f5803d2b23740f96f09"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/r1o0jx9Em_1280.jpg",
+  "breedName": "Vizsla",
+  "temperament": "Affectionate, Energetic, Loyal, Gentle, Quiet",
+  "lifespan": "10 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f0a"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/hYsMv3NQi.jpg",
+  "breedName": "Finnish Spitz",
+  "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f0b"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/bJqrD40we.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f0c"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/dSaV-OCxy.jpg",
+  "breedName": "Kooikerhondje",
+  "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f0d"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/mVr3PouoV.jpg",
+  "breedName": "Bearded Collie",
+  "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f0e"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/O4zh8w0vB.jpg",
+  "breedName": "Scottish Fold",
+  "temperament": "Affectionate, Intelligent, Loyal, Playful, Social, Sweet, Loving",
+  "lifespan": "11 - 14",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f0f"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/Z8LiOtceX.jpg",
+  "breedName": "African Hunting Dog",
+  "temperament": "Wild, Hardworking, Dutiful",
+  "lifespan": "11 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f10"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/zEQtlI8h1.jpg",
+  "breedName": "Alaskan Malamute",
+  "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f11"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/aREFAmi5H.jpg",
+  "breedName": "Alaskan Malamute",
+  "temperament": "Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7503d2b23740f96f12"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/S82sy7Hfz.jpg",
+  "breedName": "Bull Terrier",
+  "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7d03d2b23740f96f13"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/VTbymwKqG.jpg",
+  "breedName": "Afghan Hound",
+  "temperament": "Aloof, Clownish, Dignified, Independent, Happy",
+  "lifespan": "10 - 13 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7d03d2b23740f96f14"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/ehW1aS16H.jpg",
+  "breedName": "Border Collie",
+  "temperament": "Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7d03d2b23740f96f15"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/q6mwhzuB3.jpg",
+  "breedName": "Bull Terrier",
+  "temperament": "Trainable, Protective, Sweet-Tempered, Keen, Active",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7d03d2b23740f96f16"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/NoSR1FFPx.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569f7d03d2b23740f96f17"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/oqjGkQJSZ.jpg",
+  "breedName": "Kooikerhondje",
+  "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569ff403d2b23740f96f18"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/Atmf2iDb0.jpg",
+  "breedName": "American Bulldog",
+  "temperament": "Friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569ff403d2b23740f96f19"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/RvLX2NmBZ.jpg",
+  "breedName": "Standard Schnauzer",
+  "temperament": "Trainable, Good-natured, Devoted, Lively, Playful, Intelligent",
+  "lifespan": "13 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569ff403d2b23740f96f1a"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/ziBew-QH2.jpg",
+  "breedName": "Siberian",
+  "temperament": "Curious, Intelligent, Loyal, Sweet, Agile, Playful, Affectionate",
+  "lifespan": "12 - 15",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "67569ff403d2b23740f96f1b"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/kzcMOroSg.jpg",
+  "breedName": "Australian Cattle Dog",
+  "temperament": "Cautious, Energetic, Loyal, Obedient, Protective, Brave",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "67569ff403d2b23740f96f1c"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/eNM4W5f1S.jpg",
+  "breedName": "Chesapeake Bay Retriever",
+  "temperament": "Affectionate, Intelligent, Quiet, Dominant, Happy, Protective",
+  "lifespan": "10 - 13 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b487"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/YPDnk0_5g.jpg",
+  "breedName": "Bearded Collie",
+  "temperament": "Self-confidence, Hardy, Lively, Alert, Intelligent, Active",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b488"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/WWmA1kutH.jpg",
+  "breedName": "Saint Bernard",
+  "temperament": "Friendly, Lively, Gentle, Watchful, Calm",
+  "lifespan": "7 - 10 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b489"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/XWzQsmrmX.jpg",
+  "breedName": "Australian Cattle Dog",
+  "temperament": "Cautious, Energetic, Loyal, Obedient, Protective, Brave",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b48a"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/kmvetZsyr.jpg",
+  "breedName": "Russian Blue",
+  "temperament": "Active, Dependent, Easy Going, Gentle, Intelligent, Loyal, Playful, Quiet",
+  "lifespan": "10 - 16",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b48b"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/sqQJDtbpY.jpg",
+  "breedName": "American Bully",
+  "temperament": "Strong Willed, Stubborn, Friendly, Clownish, Affectionate, Loyal, Obedient, Intelligent, Courageous",
+  "lifespan": "8 – 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b48c"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/uAzXRozxs.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1aa28789e2470f4b48d"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/L6d7rFyt1.jpg",
+  "breedName": "Havana Brown",
+  "temperament": "Affectionate, Curious, Demanding, Friendly, Intelligent, Playful",
+  "lifespan": "10 - 15",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b48e"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/YbXK-k96Y.jpg",
+  "breedName": "Kooikerhondje",
+  "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b48f"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/fbl5hbwrc.jpg",
+  "breedName": "Finnish Spitz",
+  "temperament": "Playful, Loyal, Independent, Intelligent, Happy, Vocal",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b490"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/6kOWrryau.jpg",
+  "breedName": "Saluki",
+  "temperament": "Aloof, Reserved, Intelligent, Quiet",
+  "lifespan": "12 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b491"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/36TXlWMDf.jpg",
+  "breedName": "Akita",
+  "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous",
+  "lifespan": "10 - 14 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b492"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/g2tW0bptM.jpg",
+  "breedName": "Kooikerhondje",
+  "temperament": "Benevolent, Agile, Alert, Intelligent, Active, Territorial",
+  "lifespan": "12 - 15 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b493"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/rpZCEzgiR.jpg",
+  "breedName": "Turkish Van",
+  "temperament": "Agile, Intelligent, Loyal, Playful, Energetic",
+  "lifespan": "12 - 17",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b494"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/VRUwbGjVP.jpg",
+  "breedName": "Shiba Inu",
+  "temperament": "Charming, Fearless, Keen, Alert, Confident, Faithful",
+  "lifespan": "12 - 16 years",
+  "type": "dog"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b495"
+  },
+  "imageUrl": "https://cdn2.thecatapi.com/images/Hb2N6tYTJ.jpg",
+  "breedName": "Aegean",
+  "temperament": "Affectionate, Social, Intelligent, Playful, Active",
+  "lifespan": "9 - 12",
+  "type": "cat"
+},
+{
+  "_id": {
+    "$oid": "6756a1cb28789e2470f4b496"
+  },
+  "imageUrl": "https://cdn2.thedogapi.com/images/5i89L75D9.jpg",
+  "breedName": "Akbash Dog",
+  "temperament": "Loyal, Independent, Intelligent, Brave",
+  "lifespan": "10 - 12 years",
+  "type": "dog"
+}]

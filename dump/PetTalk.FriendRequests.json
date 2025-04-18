@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6753e1cde7d5f4611d73a8c5"
+  },
+  "fromUser": "Test",
+  "toUser": "Julien",
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "6755456ce5d2ac9abf6f8bf8"
+  },
+  "fromUser": "peter",
+  "toUser": "Test",
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "675ab5e16b5e3f3f37cc0d37"
+  },
+  "fromUser": "Test",
+  "toUser": "Julien",
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "675b2257bff7bb20b2f1d6dc"
+  },
+  "fromUser": "Jerome",
+  "toUser": "Test",
+  "status": "pending"
+},
+{
+  "_id": {
+    "$oid": "675bccb5831f6a57f70526fa"
+  },
+  "fromUser": "Paul",
+  "toUser": "Julien",
+  "status": "accepted"
+},
+{
+  "_id": {
+    "$oid": "675bdcc862ca5c10b6a25705"
+  },
+  "fromUser": "peter",
+  "toUser": "Test",
+  "status": "accepted"
+}]
