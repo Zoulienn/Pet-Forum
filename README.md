@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 </p>
 
----
+<hr>
 
 ## 🌟 Features at a Glance
 
@@ -35,7 +35,42 @@
 📦 **Full Data Persistence**  
 → All interactions stored cleanly with MongoDB models.
 
----
+<hr>
+
+📸 Screenshots
+
+Login
+
+<img src="screenshots/login.png" width="500"/>
+
+
+Home Page
+
+<img src="screenshots/homepage.png" width="500"/>
+
+Profile
+
+<img src="screenshots/profile.png" width="500"/>
+
+
+Explore
+
+<img src="screenshots/explore.png" width="500"/>
+
+For you
+
+<img src="screenshots/foryou.png" width="500"/>
+
+
+Create Post
+
+<img src="screenshots/createpost.png" width="500"/>
+
+Database
+
+<img src="screenshots/database.png" width="500"/>
+
+<hr>
 
 ## 🛠️ Built With
 
